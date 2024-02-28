@@ -1,0 +1,648 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1c2935;
+
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #aa9875;
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    -webkit-filter: brightness(120%);
+    filter: brightness(120%);
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+figure {
+    margin: 0;
+}
+
+/*  */
+.container {
+    width: 100%;
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+header.header .traveltour-top-bar {
+    background-color: #644222;
+    padding: 15px 0;
+}
+
+header.header .traveltour-top-bar .top-header-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+header.header .traveltour-top-bar .top-header-inner .top-bar-left a {
+    padding: 0 30px 0 0;
+    color: #fff;
+}
+
+header.header .traveltour-top-bar .top-header-inner .top-bar-left a:hover {
+    color: #fff;
+}
+
+header.header .traveltour-top-bar .top-header-inner .top-bar-right a {
+    padding: 0 0 0 22px;
+    color: #fff;
+}
+
+header.header .traveltour-top-bar .top-header-inner .top-bar-right a:hover {
+    color: #fff;
+}
+
+/*  */
+.navigation {
+    padding: 16px 0;
+}
+
+.logo img {
+    max-width: 240px;
+}
+
+.navigation div#mySidenavs ul {
+    display: flex;
+}
+
+.navigation div#mySidenavs ul li {
+    margin-left: 40px;
+}
+
+.navigation .toggle-bar {
+    display: none;
+}
+
+.navigation span.closebtn {
+    display: none;
+}
+
+.navigation div#mySidenavs ul li a {
+    display: block;
+    color: #fff;
+    padding: 20px 0;
+    font-weight: 400;
+    position: relative;
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+}
+
+.navigation div#mySidenavs ul li a:hover {
+    color: #aa7769;
+}
+
+header.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.page-header {
+
+    width: 100%;
+    background-color: #09090975;
+    z-index: 999;
+
+}
+
+
+
+.is-sticky {
+    position: fixed;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
+    padding: 16px 0;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    animation: slideDown 0.35s ease-out;
+    background-color: #644222 !important;
+    top: 0 !important;
+    opacity: 1;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+a.active {
+    color: #aa7769 !important;
+
+}
+
+/*  */
+section.site-bnr {
+    background: url(../images/slider_bg.png);
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.site-bnr .bnr-text {
+    text-align: center;
+}
+
+.bnr-text h1 {
+    color: #fff;
+    font-size: 62px;
+    font-weight: 800;
+    max-width: 901px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bnr-text p {
+    font-size: 18px;
+    color: #ffffffbf;
+    line-height: 26px;
+}
+
+/*  */
+section.historical {
+    padding: 50px 0;
+}
+
+.historical-inner p {
+    font-size: 16px;
+    color: #000;
+    line-height: 28px;
+}
+
+/*  */
+section.hotels-and-resorts {
+    padding-bottom: 60px;
+}
+
+section.hotels-and-resorts h2 {
+    font-family: 'Jost', sans-serif;
+    color: #101010;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.hotel-img {
+    overflow: hidden;
+}
+
+.hotel-img img {
+    height: 200px;
+    object-fit: cover;
+    transition: all 0.3s;
+}
+
+.hotel-img img:hover {
+    transform: scale(1.2);
+
+}
+
+/* footer */
+footer.footer {
+    background: url(../images/footer.png);
+    padding-top: 60px;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer-logo img {
+    max-width: 240px;
+}
+
+.footer-logo p {
+    color: #fffc;
+    margin-top: 20px;
+    max-width: 300px;
+    line-height: 28px;
+}
+
+.footer-menu h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    position: relative;
+    padding-bottom: 20px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.footer-inner {
+    padding-bottom: 40px;
+}
+
+.footer-menu ul li a {
+    font-size: 16px;
+    color: #fff;
+    padding: 6px 0;
+    display: block;
+}
+
+.footer-menu ul li a:hover {
+    color: #aa7769;
+}
+
+.footer-menu ul li a i {
+    margin: 0 8px 0 0;
+}
+
+.copyright-wrap {
+    background: #282828;
+    color: #fff;
+    font-size: 15px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.copyright-text-inner p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.hotels-and-resorts .row .col-lg-3.col-md-6 {
+    margin: 10px 0;
+}
+
+/*  */
+section.site-bnr.terms {
+    background: url(../images/termn.jpg)no-repeat;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+section.site-bnr.terms::after {
+    position: absolute;
+    inset: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #0000003d;
+    z-index: -1;
+}
+
+.bnr-text h2 {
+    color: #fff;
+}
+
+section.terms-wrapper {
+    padding: 50px 0;
+}
+
+.terms-inner h5 {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 18px;
+}
+
+.terms-inner p {
+    margin: 0;
+    padding-bottom: 18px;
+    line-height: 28px;
+    color: #000;
+    font-size: 16px;
+}
+
+.terms-inner ul li {
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+.terms-inner ul li::after {
+    position: absolute;
+    content: "";
+    background: #000;
+    width: 10px;
+    height: 10px;
+    top: 8px;
+    left: 0;
+    border-radius: 50%;
+}
+
+section.site-bnr.terms.privacy-policy {
+    background: url(../images/Privacy.avif);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.prague-box-inner img {
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.prague-box {
+    height: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background: #fff;
+    padding: 20px;
+}
+
+.castle-inner {
+    text-align: center;
+}
+
+.castle-inner h2 {
+    font-size: 26px;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.prague .row .col-lg-4.col-md-6 {
+    margin: 20px 0;
+}
+
+.prague-text h3 {
+    font-size: 22px;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.prague-text p {
+    color: #000;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0;
+}
+
+section.castle.second {
+    padding-top: 60px;
+}
+
+.republic {
+    padding: 50px 0;
+}
+
+.republic p {
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+    margin: 0;
+}
+
+section.site-bnr.hotel {
+    background: url(../images/hotel.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.hotel-img figure {
+    overflow: hidden;
+}
+
+.hotel-img-box {
+    height: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background: #fff;
+    border: 1px solid #b7b7b7;
+    transition: all 0.3s;
+}
+
+.adeba-text {
+    padding: 20px 20px 40px;
+}
+
+.adeba-text h3 {
+    font-size: 24px;
+    color: #000;
+    margin: 0 0 10px;
+}
+
+.adeba-text p {
+    color: #000;
+    font-size: 16px;
+}
+
+.adeba-text p span {
+    font-weight: bold;
+}
+
+.hotels-and-resorts .row .col-lg-4.col-md-6 {
+    margin-bottom: 30px;
+}
+
+
+
+.adeba-text ul li {
+    position: relative;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 10px;
+    padding-left: 1px;
+}
+
+.comparison-text h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #644222;
+    margin: 0;
+    padding-bottom: 14px;
+}
+
+.comparison-text h5 {
+    font-size: 20px;
+    color: #644222;
+}
+
+.comparison-text p {
+    font-size: 16px;
+    color: #000;
+}
+
+section.comparison {
+    padding-bottom: 50px;
+}
+
+section.cultural {
+    padding-bottom: 60px;
+}
+
+.cultural-inner p {
+    color: #000;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.hotel-img-box:hover {
+    box-shadow: #644222 6px 4px;
+}
+
+section.myForm-box {
+    padding-bottom: 60px;
+}
+
+.myForminner {
+    border-width: 15px;
+    border-color: #e3e3e3;
+    box-shadow: 0px 0px 29px 0px rgba(0, 0, 0, 0.3);
+    max-width: 700px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 30px;
+    border-radius: 9px;
+
+}
+
+.form-inner {
+    padding-bottom: 16px;
+}
+
+.form-inner label {
+    display: block;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.form-inner input,
+.form-inner textarea#message {
+    display: block;
+    color: #000000;
+    border: 1px solid #d6d6d6;
+    width: 100%;
+    padding: 10px;
+    background-color: #e8eeef;
+
+}
+
+.btn-submit button {
+    background: #644222;
+    border: 1px solid;
+    padding: 14px 40px;
+    color: #ffff;
+    text-transform: capitalize;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+.btn-submit button:hover {
+    background-color: #aa9875;
+}
+
+.myForminner h3 {
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: 700;
+}
+
+.error {
+    color: red;
+    text-transform: capitalize;
+    margin-top: 6px;
+}
+
+.historical-inner p a {
+    color: #644222;
+}
+
+section.site-bnr.casino {
+    background: url(../images/kasino.avif);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+section.site-bnr.casino::after {
+    position: absolute;
+    inset: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #0000003d;
+    z-index: -1;
+}
+
+.hotel-img-box img {
+    height: 262px;
+}
+
+.cultural-inner h5 {
+    font-size: 28px;
+    margin: 0;
+    padding-bottom: 12px;
+}
+
+.cultural-inner h6 {
+    font-size: 20px;
+    color: #000;
+}
+
+section.site-bnr.about{
+    background: url(../images/about-us.avif);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+section.site-bnr.about::after {
+    position: absolute;
+    inset: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #0000003d;
+    z-index: -1;
+}
+section.site-bnr.thermal{
+    background: url(../images/Thermal.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+section.site-bnr.horni{
+    background: url(../images/hotel-banner.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
