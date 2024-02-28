@@ -271,7 +271,7 @@ footer.footer {
     font-size: 16px;
     color: #fff;
     padding: 6px 0;
-    display: block;
+    display: inline-block;
 }
 
 .footer-menu ul li a:hover {
