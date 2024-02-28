@@ -613,7 +613,7 @@ section.site-bnr.casino::after {
     color: #000;
 }
 
-section.site-bnr.about{
+section.site-bnr.about {
     background: url(../images/about-us.avif);
     height: 500px;
     background-size: cover;
@@ -621,6 +621,7 @@ section.site-bnr.about{
     position: relative;
     z-index: 1;
 }
+
 section.site-bnr.about::after {
     position: absolute;
     inset: 0;
@@ -630,7 +631,8 @@ section.site-bnr.about::after {
     background: #0000003d;
     z-index: -1;
 }
-section.site-bnr.thermal{
+
+section.site-bnr.thermal {
     background: url(../images/Thermal.jpg);
     height: 500px;
     background-size: cover;
@@ -638,11 +640,54 @@ section.site-bnr.thermal{
     position: relative;
     z-index: 1;
 }
-section.site-bnr.horni{
+
+section.site-bnr.horni {
     background: url(../images/hotel-banner.jpg);
     height: 500px;
     background-size: cover;
     background-position: center;
     position: relative;
     z-index: 1;
+}
+
+#cookies {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    color: white;
+    background-color: rgb(100 66 34);
+    z-index: 1;
+    display: none;
+    padding: 20px 0;
+}
+
+.cookies p {
+    max-width: 1000px;
+    margin: 0;
+}
+
+.cookies {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.cookies a {
+    text-decoration: none;
+    font-weight: 500;
+    color: yellow;
+}
+
+#cookies-btn {
+    border-radius: 5px;
+    padding: 8px 12px 8px 12px;
+    font-size: 1rem;
+    font-family: inherit;
+    cursor: pointer;
+    border: 3px solid white;
+    background-color:white;
+    color: #644222;
 }
