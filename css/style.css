@@ -218,6 +218,7 @@ section.hotels-and-resorts h2 {
     text-align: center;
     margin: 0;
     padding-bottom: 50px;
+    text-transform: capitalize;
 }
 
 .hotel-img {
