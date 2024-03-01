@@ -613,7 +613,14 @@ section.site-bnr.casino::after {
     font-size: 20px;
     color: #000;
 }
-
+.social-icons,
+.links__main {
+    border-right: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
 section.site-bnr.about {
     background: url(../images/about-us.avif);
     height: 500px;
