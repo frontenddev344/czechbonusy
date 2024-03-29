@@ -74,4 +74,23 @@
     .page-header {
         top: 0;
     }
+
+    .list-box {
+        display: block;
+        width: 100%;
+    }
+
+    .list-box * {
+        width: 100% !important;
+    }
+
+    .list-box>a:last-child {
+        width: 50% !important;
+        text-align: center;
+        margin-top: 17px;
+    }
+
+    .content h3 {
+        margin: 11px 0 0 0;
+    }
 }
