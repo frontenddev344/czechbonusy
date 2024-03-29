@@ -809,6 +809,6 @@ a.button:hover {
 }
 
 .row.shadow {
-    box-shadow: 0 3px 10px rgb(100 66 34) !important;
+    box-shadow: 0 2px 5px rgb(100 66 34) !important;
     padding: 13px 0;
 }
