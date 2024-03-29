@@ -764,7 +764,11 @@ section.site-bnr.horni {
 }
 
 .hotel-lists h2 {
-    padding-bottom: 16px;
+    padding: 16px 0;
+}
+
+section.castle.top {
+    padding-top: 25px;
 }
 
 .list-box a img {
@@ -802,4 +806,9 @@ a.button:hover {
     display: inline-block;
     border-radius: 4px;
     border: 1px solid #644222;
+}
+
+.row.shadow {
+    box-shadow: 0 3px 10px rgb(100 66 34) !important;
+    padding: 13px 0;
 }
